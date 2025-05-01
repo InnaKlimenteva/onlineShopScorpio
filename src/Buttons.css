@@ -1,0 +1,112 @@
+.buttons {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.scrollTopBtn {
+	position: absolute;
+	margin-right: 20px;
+	right: 0;
+	top: 10;
+	border: none;
+	background-color: transparent;
+  }
+  
+.arrowUp{
+    width: 30px;
+}
+
+.btn {
+	border: 1px solid #5b5e6b;
+	background-color: transparent;
+	margin: 5px;
+	padding: 7px;
+	height: fit-content;
+	color: #494b54;
+	outline: none;
+	box-sizing: border-box;
+	transition: all 0.2s ease;
+	font-size: 12px;
+}
+
+.btn:hover {
+	background-color: rgb(221, 134, 20);
+	color: #f9f9f9;
+	border: 1px solid rgb(221, 134, 20);
+}
+
+.btnActive {
+	color: rgb(221, 134, 20);
+	height: fit-content;
+	border: 1px solid rgb(221, 134, 20);
+	padding: 7px;
+	margin: 5px;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:768px) {
+    .buttons {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+}
+
+
+@media all and (max-width:500px) {
+    .buttons {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+    .btn {
+		font-size: 10px;
+		padding: 4px;
+		border: 1px solid #5b5e6b;
+		background-color: transparent;
+		margin: 5px;
+		height: fit-content;
+		color: #494b54;
+		outline: none;
+		box-sizing: border-box;
+		transition: all 0.2s ease;
+	}
+
+	.btnActive {
+		color: rgb(221, 134, 20);
+		height: fit-content;
+		border: 1px solid rgb(221, 134, 20);
+		padding: 4px;
+		margin: 5px;
+		font-size: 10px;
+	}
+
+	.scrollTopBtn {
+		margin-right: 10px;
+	  }
+}
+
+
+@media all and (max-width:360px) {
+    .buttons {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.scrollTopBtn {
+		margin-right: 5px;
+
+	  }
+}
+

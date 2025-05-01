@@ -1,5 +1,5 @@
 import Swal from "sweetalert2";
-
+import './CartModal.css';
 
 
 export function CartModal({ cartItems, onClose, handleRemoveItem }) {
@@ -28,7 +28,7 @@ export function CartModal({ cartItems, onClose, handleRemoveItem }) {
                         <p>Size: {item.size}</p>
                         <p>Price: ${item.price} </p>
                         <p>Quantity: {item.quantity}</p>
-                        <button className="btnModalDel" onClick={() => handleRemoveItem(item.id)}>Remove</button>
+                        <button className="btnModalDel" onClick={() => handleRemoveItem(item.id, item.size)}>Remove</button>
                         <button className="btnModalBuy" onClick={toBuy}>Buy</button>
                 </li>
               ))}

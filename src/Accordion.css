@@ -1,0 +1,106 @@
+.FAQ-par {
+	margin-top: -20px;
+	margin-bottom: -40px;
+	padding: 70px;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	color: #5b5e6b;
+}
+
+.title {
+	letter-spacing: 4px;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: "Antic", sans-serif;
+}
+
+.FAQ-container {
+	display: flex;
+	justify-content: center;
+}
+
+.FAQ {
+	width: 400px;
+	text-align: left;
+	padding-left: 100px;
+}
+
+.active {
+	margin-top: 15px;
+	cursor: pointer;
+	color: rgb(221, 134, 20);
+}
+
+.default {
+	padding: 7px;
+	cursor: pointer;
+}
+
+.FAQ-question {
+	display: flex;
+	align-items: center;
+}
+
+.arrow {
+	transform: rotate(90deg);
+	transition: all ease 0.3s;
+}
+
+.FAQ-title:hover {
+	color: rgb(221, 134, 20);
+}
+
+a {
+	color: rgb(221, 134, 20);
+}
+
+.content {
+	padding: 0px 14px 40px 10px;
+}
+
+hr {
+	margin-top: 30px;
+}
+
+
+
+@media all and (max-width:1024px) {
+    .FAQ {
+		padding-left: 50px;
+	}
+
+}
+
+
+@media all and (max-width:768px) {
+    .FAQ {
+		padding-left: 70px;
+	}
+}
+
+
+
+@media all and (max-width:500px) {
+
+    .title {
+		font-size: 14px;
+	}
+
+    .FAQ {
+		padding-left: 40px;
+		width: 300px;
+		text-align: left;
+	}
+
+	.FAQ-par {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding: 30px;
+		text-align: center;
+		font-family: "Montserrat", sans-serif;
+		font-size: 12px;
+		color: #5b5e6b;
+	}
+
+}

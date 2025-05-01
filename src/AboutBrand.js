@@ -1,3 +1,5 @@
+import './AboutBrand.css';
+
 export function AboutBrand(){
 
     return(
